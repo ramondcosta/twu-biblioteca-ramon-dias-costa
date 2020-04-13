@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94ddbbf3-853b-4290-a424-4904f6792d3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/BibliotecaAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca.iml" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/ExampleTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aUU3zChJIC73kx13FIC13iy1dU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.twu.biblioteca" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BibliotecaApp">
+    <configuration name="BibliotecaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaApp" />
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in biblioteca" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BookTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookTest.gameOfThronestoString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BookTest" />
+      <option name="METHOD_NAME" value="gameOfThronestoString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.CatalogTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.twu.biblioteca in biblioteca" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BibliotecaApp" />
+        <item itemvalue="JUnit.CatalogTest" />
+        <item itemvalue="JUnit.BookTest" />
+        <item itemvalue="JUnit.BookTest.gameOfThronestoString" />
+        <item itemvalue="JUnit.All in biblioteca" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94ddbbf3-853b-4290-a424-4904f6792d3e" name="Default Changelist" comment="" />
+      <created>1586789470697</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586789470697</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="407" y="280" key="#com.intellij.ide.util.MemberChooser" timestamp="1586803110972">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="407" y="283" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1586800254372" />
+    <state x="407" y="280" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1586803110972" />
+    <state x="306" y="334" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1586798201995">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="306" y="334" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1586798201995" />
+    <state x="666" y="407" width="460" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586803189933">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="666" y="407" width="460" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1792.1017@0.23.1792.1017" timestamp="1586803189933" />
+    <state x="561" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586807153456">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="561" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1586807153456" />
+    <state x="634" y="285" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1586805305148">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="634" y="285" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1586805305148" />
+    <state x="467" y="164" key="#com.twu.biblioteca_in_biblioteca" timestamp="1586795687809">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="467" y="164" key="#com.twu.biblioteca_in_biblioteca/0.0.1792.1120@0.0.1792.1120" timestamp="1586795687809" />
+    <state width="1750" height="276" key="GridCell.Tab.0.bottom" timestamp="1586810193483">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586800603463" />
+    <state width="1750" height="276" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1586810193483" />
+    <state width="1750" height="276" key="GridCell.Tab.0.center" timestamp="1586810193482">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586800603462" />
+    <state width="1750" height="276" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1586810193482" />
+    <state width="1750" height="276" key="GridCell.Tab.0.left" timestamp="1586810193482">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586800603461" />
+    <state width="1750" height="276" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1586810193482" />
+    <state width="1750" height="276" key="GridCell.Tab.0.right" timestamp="1586810193483">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586800603462" />
+    <state width="1750" height="276" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1586810193483" />
+    <state width="1750" height="342" key="GridCell.Tab.1.bottom" timestamp="1586805579760">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1586805579760" />
+    <state width="1750" height="342" key="GridCell.Tab.1.center" timestamp="1586805579760">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1586805579760" />
+    <state width="1750" height="342" key="GridCell.Tab.1.left" timestamp="1586805579759">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1586805579759" />
+    <state width="1750" height="342" key="GridCell.Tab.1.right" timestamp="1586805579760">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1586805579760" />
+    <state x="484" y="273" key="IDE.errors.dialog" timestamp="1586801217352">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="484" y="273" key="IDE.errors.dialog/0.23.1792.1017@0.23.1792.1017" timestamp="1586801217352" />
+    <state x="397" y="170" key="SettingsEditor" timestamp="1586801046983">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="397" y="170" key="SettingsEditor/0.23.1792.1017@0.23.1792.1017" timestamp="1586801046983" />
+    <state x="294" y="165" width="600" height="733" key="find.popup" timestamp="1586804060075">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="294" y="156" width="600" height="807" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1586797162363" />
+    <state x="294" y="165" width="600" height="733" key="find.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1586804060075" />
+    <state x="561" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1586804471302">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="561" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1586804471302" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/com/twu/biblioteca/BookTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
