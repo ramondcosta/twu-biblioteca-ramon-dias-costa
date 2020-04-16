@@ -30,10 +30,10 @@ public class Book {
     @Override
     public String toString() {
 
-        DateFormat dtf = new SimpleDateFormat("dd/MM/yyyy");
+        DateFormat dtf = new SimpleDateFormat("yyyy");
 
-        return "Book: " + title + ';' +
-                " Author: " + author + ';' +
-                " Release Date: " + dtf.format(releaseDate.getTime()) + ';';
+        return "Name: " + title + " |" +
+                " Author: " + author + " |" +
+                " Release Year: " + dtf.format(releaseDate.getTime());
     }
 }
