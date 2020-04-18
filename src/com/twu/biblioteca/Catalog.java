@@ -1,12 +1,14 @@
 package com.twu.biblioteca;
 
+import com.twu.biblioteca.models.Book;
+
 import java.util.ArrayList;
 
 public class Catalog {
 
     private ArrayList<Book> bookList;
 
-    Catalog(ArrayList<Book> bookList){
+    public Catalog(ArrayList<Book> bookList){
         this.bookList = bookList;
     }
 

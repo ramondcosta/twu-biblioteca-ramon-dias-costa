@@ -1,5 +1,6 @@
 package com.twu.biblioteca;
 
+import com.twu.biblioteca.models.Book;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -8,7 +9,6 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 import static org.hamcrest.core.Is.is;
-import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
