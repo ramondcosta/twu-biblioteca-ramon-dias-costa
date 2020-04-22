@@ -28,8 +28,9 @@
       <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/CatalogTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/CatalogTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/SubMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/SubMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/subMenus/CatalogMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/subMenus/CatalogMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/SubMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/SubMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/subMenus/CatalogMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/subMenus/CatalogMenuTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +40,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -87,7 +88,7 @@
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.models.*" />
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,41 +96,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in biblioteca" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="biblioteca" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CatalogMenuTest.shouldPrintCorrectMenuContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParserTest.ShouldReturnInvalidIndexWhenIsNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.subMenus.*" />
+          <option name="PATTERN" value="com.twu.biblioteca.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.twu.biblioteca.subMenus" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.subMenus.CatalogMenuTest" />
-      <option name="METHOD_NAME" value="shouldPrintCorrectMenuContent" />
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.utils.ParserTest" />
+      <option name="METHOD_NAME" value="ShouldReturnInvalidIndexWhenIsNegative" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatalogTest.shouldPrintTheFormatedDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParserTest.ShouldReturnInvalidIndexWhenIsNotAInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.models.*" />
+          <option name="PATTERN" value="com.twu.biblioteca.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.CatalogTest" />
-      <option name="METHOD_NAME" value="shouldPrintTheFormatedDescription" />
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.utils.ParserTest" />
+      <option name="METHOD_NAME" value="ShouldReturnInvalidIndexWhenIsNotAInteger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParserTest.ShouldReturnInvalidIndexWhenIsNotAnInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.utils.ParserTest" />
+      <option name="METHOD_NAME" value="ShouldReturnInvalidIndexWhenIsNotAnInteger" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,13 +178,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.twu.biblioteca.Options in biblioteca" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.Options.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca.Options" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.twu.biblioteca.utils in biblioteca" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca.utils" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BibliotecaApp" />
-        <item itemvalue="JUnit.CatalogMenuTest.shouldPrintCorrectMenuContent" />
         <item itemvalue="JUnit.SubMenuTest.shouldGetCorrectDescription" />
-        <item itemvalue="JUnit.All in biblioteca" />
-        <item itemvalue="JUnit.CatalogTest.shouldPrintTheFormatedDescription" />
+        <item itemvalue="JUnit.ParserTest.ShouldReturnInvalidIndexWhenIsNegative" />
+        <item itemvalue="JUnit.ParserTest.ShouldReturnInvalidIndexWhenIsNotAnInteger" />
+        <item itemvalue="JUnit.ParserTest.ShouldReturnInvalidIndexWhenIsNotAInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -213,11 +258,12 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="98" y="117" width="1592" height="817" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1587237025485" />
-    <state x="407" y="280" key="#com.intellij.ide.util.MemberChooser" timestamp="1587236448313">
+    <state x="407" y="280" key="#com.intellij.ide.util.MemberChooser" timestamp="1587588377836">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="407" y="283" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1586800254372" />
     <state x="407" y="280" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1587236448313" />
+    <state x="407" y="280" key="#com.intellij.ide.util.MemberChooser/1792.23.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1587588377836" />
     <state x="306" y="334" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1586798201995">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -238,50 +284,62 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="634" y="285" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1586805305148" />
+    <state x="467" y="138" key="#com.twu.biblioteca.Options_in_biblioteca" timestamp="1587573088026">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="467" y="138" key="#com.twu.biblioteca.Options_in_biblioteca/0.23.1792.1017@0.23.1792.1017" timestamp="1587573088026" />
     <state x="467" y="138" key="#com.twu.biblioteca.subMenus_in_biblioteca" timestamp="1587236027546">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="467" y="138" key="#com.twu.biblioteca.subMenus_in_biblioteca/0.23.1792.1017@0.23.1792.1017" timestamp="1587236027546" />
+    <state x="467" y="138" key="#com.twu.biblioteca.utils_in_biblioteca" timestamp="1587577197175">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="467" y="138" key="#com.twu.biblioteca.utils_in_biblioteca/1792.23.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1587577197175" />
     <state x="467" y="164" key="#com.twu.biblioteca_in_biblioteca" timestamp="1586795687809">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="467" y="164" key="#com.twu.biblioteca_in_biblioteca/0.0.1792.1120@0.0.1792.1120" timestamp="1586795687809" />
-    <state width="1750" height="276" key="GridCell.Tab.0.bottom" timestamp="1587240323488">
+    <state width="1750" height="276" key="GridCell.Tab.0.bottom" timestamp="1587590431992">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586800603463" />
-    <state width="1750" height="276" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1587240323488" />
-    <state width="1750" height="276" key="GridCell.Tab.0.center" timestamp="1587240323487">
+    <state width="1750" height="342" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1587573101555" />
+    <state width="1750" height="276" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1587590431992" />
+    <state width="1750" height="276" key="GridCell.Tab.0.center" timestamp="1587590431991">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586800603462" />
-    <state width="1750" height="276" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1587240323487" />
-    <state width="1750" height="276" key="GridCell.Tab.0.left" timestamp="1587240323487">
+    <state width="1750" height="342" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1587573101555" />
+    <state width="1750" height="276" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1587590431991" />
+    <state width="1750" height="276" key="GridCell.Tab.0.left" timestamp="1587590431990">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586800603461" />
-    <state width="1750" height="276" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1587240323487" />
-    <state width="1750" height="276" key="GridCell.Tab.0.right" timestamp="1587240323488">
+    <state width="1750" height="342" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1587573101555" />
+    <state width="1750" height="276" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1587590431990" />
+    <state width="1750" height="276" key="GridCell.Tab.0.right" timestamp="1587590431991">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586800603462" />
-    <state width="1750" height="276" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1587240323488" />
-    <state width="1750" height="342" key="GridCell.Tab.1.bottom" timestamp="1587240315395">
+    <state width="1750" height="342" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1587573101555" />
+    <state width="1750" height="276" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1587590431991" />
+    <state width="1750" height="342" key="GridCell.Tab.1.bottom" timestamp="1587573101556">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1587240315395" />
-    <state width="1750" height="342" key="GridCell.Tab.1.center" timestamp="1587240315394">
+    <state width="1750" height="342" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1587573101556" />
+    <state width="1750" height="342" key="GridCell.Tab.1.center" timestamp="1587573101556">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1587240315394" />
-    <state width="1750" height="342" key="GridCell.Tab.1.left" timestamp="1587240315394">
+    <state width="1750" height="342" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1587573101556" />
+    <state width="1750" height="342" key="GridCell.Tab.1.left" timestamp="1587573101556">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1587240315394" />
-    <state width="1750" height="342" key="GridCell.Tab.1.right" timestamp="1587240315395">
+    <state width="1750" height="342" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1587573101556" />
+    <state width="1750" height="342" key="GridCell.Tab.1.right" timestamp="1587573101556">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1587240315395" />
+    <state width="1750" height="342" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1587573101556" />
     <state x="484" y="273" key="IDE.errors.dialog" timestamp="1586801217352">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -303,10 +361,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1587063293758" />
-    <state x="561" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1586804471302">
+    <state x="561" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1587573003174">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="561" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1586804471302" />
+    <state x="561" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1587573003174" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

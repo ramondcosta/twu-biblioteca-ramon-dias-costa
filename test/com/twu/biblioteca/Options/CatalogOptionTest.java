@@ -1,7 +1,6 @@
-package com.twu.biblioteca.subMenus;
+package com.twu.biblioteca.Options;
 
 import com.twu.biblioteca.Catalog;
-import com.twu.biblioteca.SubMenu;
 import com.twu.biblioteca.models.Book;
 import org.junit.Test;
 
@@ -10,11 +9,11 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
-public class CatalogMenuTest {
-    /*@Test
-    public void shouldPrintCorrectMenuContent(){
+public class CatalogOptionTest {
+    @Test
+    public void shouldGetCorrectDescription(){
         // Given
         ArrayList<Book> bookList = new ArrayList<Book>(Arrays.asList(
                 new Book(
@@ -27,13 +26,11 @@ public class CatalogMenuTest {
                         new GregorianCalendar(1513, Calendar.AUGUST,1))
         ));
         Catalog currentCatalog = new Catalog(bookList);
-        CatalogMenu catalogMenu = new CatalogMenu("", currentCatalog);
-        String expectedContent = "Name: A feast of crows | Author: George R.R Martin | Release Year: 1996\n" +
-                "Name: O príncipe | Author: Niccolò di Bernardo dei Machiavelli | Release Year: 1513\n";
+        CatalogOption catalogOption = new CatalogOption("List of Books", currentCatalog);
+        String expectedDescription = "List of Books";
         // When
-        String actualContent = catalogMenu.getContent();
+        String actualDescription = catalogOption.toString();
         // Then
-        assertEquals(expectedContent, actualContent);
-    }*/
-
+        assertEquals(actualDescription, expectedDescription);
+    }
 }
